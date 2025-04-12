@@ -22,7 +22,7 @@
     background-color: antiquewhite;
     width: 240px;
     padding: 20px;
-    height: 200px;
+    height: 240px;
     border-radius: 10px;
     text-align: center;
 }
@@ -32,7 +32,18 @@ img{
 }
 .myimages{
    display: flex; 
-   gap: 150px;
+   gap: 100px;
    flex-wrap: wrap;
    justify-content: space-evenly;
+}
+footer{
+    color: blue;
+    background-color: black;
+    text-align: center;
+    border: 1px, solid brown;
+    margin-top: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
 }
