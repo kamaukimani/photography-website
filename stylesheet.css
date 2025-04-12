@@ -17,3 +17,22 @@
     text-align: center;
     color: purple;
 }
+.image{
+    border: 1px;
+    background-color: antiquewhite;
+    width: 240px;
+    padding: 20px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.myimages{
+   display: flex; 
+   gap: 150px;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
